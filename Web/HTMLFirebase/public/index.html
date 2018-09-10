@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta content='#37474f' name='theme-color'/>
+  <meta content='#37474f' name='msapplication-navbutton-color'/>
+  <meta content='yes' name='apple-mobile-web-app-capable'/>
+  <meta content='#37474f' name='apple-mobile-web-app-status-bar-style'/>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/png" href="img/absensi_logo.png"/>
+  <link rel="shortcut icon" type="image/png" href="img/absensi_logo.png"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+    
+</head>
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">Absensi</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer menu-samping">
+      <span class="mdl-layout-title">Menu</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="#">Absensi</a>
+        <a class="mdl-navigation__link" href="/profile.html">Profile</a>
+        <a id="keluar" class="mdl-navigation__link" href="login.html">Keluar</a>
+      </nav>
+    </div>
+
+    <main class="mdl-layout__content">
+    <div class="page-content">
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-offset">
+
+                <table class="mdl-data-table mdl-js-data-table admin-absen">
+                    <tr>
+                    <div id="p2" class="loadingnya sembunyi mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
+                      <th class="mdl-data-table__cell--non-numeric">Siswa yang hadir</th>
+                      <th>:</th>
+                      <th class="siswayghadir"><div class="paste-hadir"></div></th>
+                    </tr>
+                    <tr>
+                      <th class="mdl-data-table__cell--non-numeric">Jumlah</th>
+                      <th>:</th>
+                      <th class="jumlah-absen"></th>
+                    </tr>
+                      
+                  <tbody>
+                  </tbody>
+                </table>
+              
+                <table class="mdl-data-table mdl-js-data-table absen">
+                    <div id="p2" class="loadingnya sembunyi mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
+                    <tr>
+                      <th class="mdl-data-table__cell--non-numeric">Senin</th>
+                      <th>:</th>
+                      <th class="senin"></th>
+                    </tr>
+                    <tr>
+                      <th class="mdl-data-table__cell--non-numeric">Selasa</th>
+                      <th>:</th>
+                      <th class="selasa"></th>
+                    </tr>
+                    <tr>
+                      <th class="mdl-data-table__cell--non-numeric">Rabu</th>
+                      <th>:</th>
+                      <th class="rabu"></th>
+                    </tr>
+                    <tr>
+                      <th class="mdl-data-table__cell--non-numeric">Kamis</th>
+                      <th>:</th>
+                      <th class="kamis"></th>
+                    </tr>
+                    <tr>
+                      <th class="mdl-data-table__cell--non-numeric">Jumat</th>
+                      <th>:</th>
+                      <th class="jumat"></th>
+                    </tr>
+                    <tr>
+                      <th class="mdl-data-table__cell--non-numeric">Sabtu</th>
+                      <th>:</th>
+                      <th class="sabtu"></th>
+                    </tr>
+                  <tbody>
+                  </tbody>
+                </table>
+
+            </div>
+          </div>
+    </div>
+  </main>
+    
+  </div>
+    
+</body>
+
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-messaging.js"></script>
+<script src="js/firebase-data.js"></script>
+
+</html>

@@ -1,0 +1,40 @@
+<script>
+  firebase.auth().onAuthStateChanged(function(user){
+    if(!user){
+      window.location.replace("login.html");
+    } else{
+      var user_id = user.uid;
+      var db = firebase.firestore();
+      var data = db.collection("users").doc(user_id);
+      data.get().then(function(doc){
+        if(doc.exists){
+          var datanya = doc.data();
+          var nama = datanya.nama;
+          var alamat = datanya.alamat;
+          var nama_siswa = datanya.nama_siswa;
+          var rfid_siswa = datanya.rfid_siswa;
+          var absensi = datanya.absensi;
+          $('.nama').text(nama);
+          $('.alamat').text(alamat);
+          $('.nama_siswa').text(nama_siswa);
+          $('.rfid_siswa').text(rfid_siswa);
+          $('.absensi').text(absensi);
+          console.log('Data: ', datanya);
+        }else{
+          console.log("No such document!");
+        }
+
+      }).catch(function(error) {
+            console.log("Error getting document:", error);
+        });
+
+    }
+  });
+  $('#keluar').click(function(){
+    firebase.auth().signOut().then(function() {
+      // Sign-out successful.
+    }).catch(function(error) {
+      alert(error);
+    });
+  });
+</script>

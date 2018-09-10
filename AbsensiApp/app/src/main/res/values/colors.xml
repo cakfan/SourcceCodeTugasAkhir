@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#37474f</color>
+    <color name="colorPrimaryDark">#102027</color>
+    <color name="colorAccent">#00c853</color>
+    <color name="colorAccentDark">#009624</color>
+    <color name="colorDanger">#FF3165</color>
+    <color name="colorText">#212121</color>
+    <color name="tabTextColor">#ffffff</color>
+    <color name="colorBackToast">#9800c853</color>
+</resources>

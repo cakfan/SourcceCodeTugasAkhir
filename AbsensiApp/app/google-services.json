@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "98686068394",
+    "firebase_url": "https://absensi-a3df8.firebaseio.com",
+    "project_id": "absensi-a3df8",
+    "storage_bucket": "absensi-a3df8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98686068394:android:6f72ad484b7956db",
+        "android_client_info": {
+          "package_name": "com.cakfan.absensi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98686068394-767tfhmocp2uol40ehenj7f80499k0vb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cakfan.absensi",
+            "certificate_hash": "e12901c1f2c16ebcdf82e3d2936b0a026118bf1a"
+          }
+        },
+        {
+          "client_id": "98686068394-ns9e6gtmbc7qc8am640o38d2h0oi44nc.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "98686068394-ns9e6gtmbc7qc8am640o38d2h0oi44nc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8Ea2u9jWqg2R3leqyuHS1B4P6j_rD_OQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98686068394-ns9e6gtmbc7qc8am640o38d2h0oi44nc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98686068394:android:120650bb6bb45279",
+        "android_client_info": {
+          "package_name": "com.cakfan.absensiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98686068394-v3k4j72t0lida7j4hdfbgppvdv7v0h8n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cakfan.absensiapp",
+            "certificate_hash": "e12901c1f2c16ebcdf82e3d2936b0a026118bf1a"
+          }
+        },
+        {
+          "client_id": "98686068394-ns9e6gtmbc7qc8am640o38d2h0oi44nc.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "98686068394-ns9e6gtmbc7qc8am640o38d2h0oi44nc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8Ea2u9jWqg2R3leqyuHS1B4P6j_rD_OQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98686068394-ns9e6gtmbc7qc8am640o38d2h0oi44nc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
